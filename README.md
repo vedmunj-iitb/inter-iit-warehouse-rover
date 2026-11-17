@@ -6,6 +6,11 @@ on ROS 2 and reads the QR codes on the racks.
 Inter IIT Tech Meet 14.0, IIT Patna, Oct 2025 to Dec 2025. I was the Problem Statement Lead for
 the Eternal (Zomato) problem statement, in a 33-member IIT Bombay team.
 
+<p align="center">
+  <img src="photos/rover.jpg" width="420" alt="The rover with its Z-axis mast, beside a test rack with QR codes">
+</p>
+<p align="center"><em>Photo: the rover with its 1.5 m Z-axis mast, beside a test rack with QR codes.</em></p>
+
 ## What I did
 
 - **Team.** I coordinated the 33-member team across mechanical design, computer vision, SLAM and
@@ -23,6 +28,15 @@ the Eternal (Zomato) problem statement, in a 33-member IIT Bombay team.
 - **Testing.** I validated the navigation with the team under varied conditions.
 
 Other members of the team did the computer vision.
+
+## Wiring (team drawing)
+
+![The team's wiring diagram of the rover's electronics, drawn in Fritzing](photos/wiring_diagram.png)
+
+The team's wiring diagram, drawn in Fritzing. It shows the Raspberry Pi 5 with its camera, an STM32
+board, the Z-axis stepper motor and its driver, a small stepper motor, the two drive motors and
+their motor driver, the lidar, an IMU and the emergency stop button. Some parts are stand-ins. The
+battery, for example, is drawn as a 3.7 V cell.
 
 ## Results
 
